@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Project4_a:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Project4_a_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Project4_a/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Project4_a" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/el-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/jasper.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/javaee.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/jsp-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/catalina.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/ecj-3.3.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/jasper-el.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/catalina-ha.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/servlet-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/catalina-ant.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/annotations-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib/groovy-all-1.5.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Softwares/Healthkart/jdbc package/mysql-connector-java-5.1.18.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

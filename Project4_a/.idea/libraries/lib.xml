@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Documents/Softwares/Healthkart/apache-tomcat-6.0.32/lib" recursive="false" />
+  </library>
+</component>

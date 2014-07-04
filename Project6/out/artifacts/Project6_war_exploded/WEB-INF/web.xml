@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+   <servlet>
+       <servlet-name>LoginServlet</servlet-name>
+       <servlet-class>servlet.LoginServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemVariantViewServlet</servlet-name>
+        <servlet-class>servlet.ItemVariantViewServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemAdderServlet</servlet-name>
+        <servlet-class>servlet.ItemAdderServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemDeleterServlet</servlet-name>
+        <servlet-class>servlet.ItemDeleterServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemUpdaterServlet</servlet-name>
+        <servlet-class>servlet.ItemUpdaterServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemVariantAdderServlet</servlet-name>
+        <servlet-class>servlet.ItemVariantAdderServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemVariantDeleterServlet</servlet-name>
+        <servlet-class>servlet.ItemVariantDeleterServlet</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ItemVariantUpdaterServlet</servlet-name>
+        <servlet-class>servlet.ItemVariantUpdaterServlet</servlet-class>
+   </servlet>
+
+
+
+    <servlet-mapping>
+       <servlet-name>LoginServlet</servlet-name>
+       <url-pattern>/login</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemVariantViewServlet</servlet-name>
+        <url-pattern>/viewitemvariant</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemAdderServlet</servlet-name>
+        <url-pattern>/additem</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemUpdaterServlet</servlet-name>
+        <url-pattern>/updateitem</url-pattern>
+   </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ItemDeleterServlet</servlet-name>
+        <url-pattern>/delitem</url-pattern>
+    </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemVariantAdderServlet</servlet-name>
+        <url-pattern>/addvariant</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemVariantDeleterServlet</servlet-name>
+        <url-pattern>/delvariant</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ItemVariantUpdaterServlet</servlet-name>
+        <url-pattern>/updatevariant</url-pattern>
+   </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductAdderServlet</servlet-name>
+        <servlet-class>servlets.ProductAdderServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductUpdaterServlet</servlet-name>
+        <servlet-class>servlets.ProductUpdaterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductDeleterServlet</servlet-name>
+        <servlet-class>servlets.ProductDeleterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VariantAdderServlet</servlet-name>
+        <servlet-class>servlets.VariantAdderServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VariantUpdaterServlet</servlet-name>
+        <servlet-class>servlets.VariantUpdaterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VariantDeleterServlet</servlet-name>
+        <servlet-class>servlets.VariantDeleterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VariantImageAdderServlet</servlet-name>
+        <servlet-class>servlets.VariantImageAdderServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductVariantViewerServlet</servlet-name>
+        <servlet-class>servlets.ProductVariantViewServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/userlogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/userregister</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductAdderServlet</servlet-name>
+        <url-pattern>/addproduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductDeleterServlet</servlet-name>
+        <url-pattern>/delproduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductUpdaterServlet</servlet-name>
+        <url-pattern>/updateproduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VariantAdderServlet</servlet-name>
+        <url-pattern>/addvariant</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VariantDeleterServlet</servlet-name>
+        <url-pattern>/delvariant</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VariantUpdaterServlet</servlet-name>
+        <url-pattern>/updatevariant</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VariantImageAdderServlet</servlet-name>
+        <url-pattern>/addvariantimage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductVariantViewerServlet</servlet-name>
+        <url-pattern>/viewproductvariant</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
